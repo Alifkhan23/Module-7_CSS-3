@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQuary</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid lightgray;
+            border-radius: 30px;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+            .container{
+                flex-direction: column;
+            }
+            .container .food {
+                background-color: rosybrown;
+            }
+            
+        }
+        @media (min-width: 1200px) {
+            .container .food{
+                background-color: skyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food1.png" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque totam neque animi odio culpa dolore minus fugiat possimus obcaecati suscipit.</p>
+        </div>
+        <div class="food">
+            <img src="images/food1.png" alt="">
+            <p>Libero, assumenda. Magni neque repudiandae corporis veritatis. Maiores magnam vero distinctio asperiores, incidunt repellat voluptate consequatur odio a alias ipsa?</p>
+        </div>
+        <div class="food">
+            <img src="images/food1.png" alt="">
+            <p>Quasi, voluptatibus quaerat nesciunt eaque a harum culpa voluptatem, ea autem enim, incidunt blanditiis! Expedita provident doloribus repudiandae vel autem.</p>
+        </div>
+        <div class="food">
+            <img src="images/food1.png" alt="">
+            <p>Cum a delectus, earum natus quibusdam pariatur praesentium unde, quidem laborum eligendi minus. Nisi in eius voluptatum corrupti at pariatur!</p>
+        </div>
+        <div class="food">
+            <img src="images/food1.png" alt="">
+            <p>Modi cum, vero maxime molestiae quod amet facere voluptate sed illo assumenda, incidunt impedit ipsa reiciendis, at asperiores vel labore!</p>
+        </div>
+        <div class="food">
+            <img src="images/food1.png" alt="">
+            <p>Numquam id ducimus cumque quae. Cupiditate ullam asperiores minima nulla tempora officiis, quisquam, repudiandae eaque sequi perferendis vero corporis ut.</p>
+        </div>
+
+    </div>
+</body>
+</html>
